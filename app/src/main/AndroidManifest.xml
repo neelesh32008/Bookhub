@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nileshbhopali.BookHub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.nileshbhopali.BookHub.sellandbuyActivity"/>
+        <activity android:name="com.example.nileshbhopali.BookHub.Register" />
+        <activity android:name="com.example.nileshbhopali.BookHub.Login" />
+        <activity android:name="com.example.nileshbhopali.BookHub.StartActivity"/>
+            <activity android:name="com.example.nileshbhopali.BookHub.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nileshbhopali.BookHub.VarifyUser"></activity>
+
+        <activity android:name="com.example.nileshbhopali.BookHub.Book_Activity" />
+        <activity
+            android:name="com.example.nileshbhopali.BookHub.MainActivity" />
+        <activity android:name="com.example.nileshbhopali.BookHub.RegistrationActivity" />
+        <activity android:name="com.example.nileshbhopali.BookHub.DonateActivity" />
+        <activity android:name="com.example.nileshbhopali.BookHub.WelcomePage"></activity>
+    </application>
+
+</manifest>
